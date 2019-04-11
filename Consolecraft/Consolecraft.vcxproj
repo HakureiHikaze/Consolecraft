@@ -124,9 +124,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Consolecraft.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="typePoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Consolecraft.cpp" />
+    <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
