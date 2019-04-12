@@ -1,10 +1,13 @@
 #pragma once
-#include"typePoint.h"
-class Player
+//#include"typePoint.h"
+#include"MovableObj.h"
+class Player :public MovableObj
 {
 private:
-	Point position{ 0,0 };
 public:
+	string playerName;
+	bool listenCommand();
+	Player(string name);
 	Player();
 	~Player();
 };

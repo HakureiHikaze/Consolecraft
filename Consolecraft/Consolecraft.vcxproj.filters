@@ -24,12 +24,27 @@
     <ClInclude Include="Player.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MovableObj.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Degree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="commands.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Consolecraft.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableObj.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Degree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

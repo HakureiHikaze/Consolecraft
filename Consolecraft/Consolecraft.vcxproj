@@ -123,12 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="commands.h" />
     <ClInclude Include="Consolecraft.h" />
+    <ClInclude Include="Degree.h" />
+    <ClInclude Include="MovableObj.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="typePoint.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Consolecraft.cpp" />
+    <ClCompile Include="Degree.cpp" />
+    <ClCompile Include="MovableObj.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
