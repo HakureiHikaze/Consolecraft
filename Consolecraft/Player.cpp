@@ -48,9 +48,6 @@ bool Player::listenKeyboard()
 	int kbin;
 	while (true)
 	{	
-		
-		if (_kbhit())
-		{
 			kbin = _getch();
 			//cout << kbin << endl;
 			if (kbin == 27) { break; }
@@ -60,7 +57,6 @@ bool Player::listenKeyboard()
 			else if (kbin == KEY_d) { right(); cout << "Pressed d. New position :"; getPositon(); }
 			else if (kbin == KEY_colon) { listenCommand(false,true); }
 			else { kbin = 0; continue; }
-		}
 	}
 	return false;
 }

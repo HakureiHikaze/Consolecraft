@@ -21,18 +21,10 @@ int main()
 	COORD size = getSize();
 	setCursor({0,size.Y-1});
 	string playerName = "";
-	cout << "Type player name\n??>:";
+	cout << "Type player name\n>:";
 	getline(cin, playerName);
 	Player player1(playerName);
 	player1.listenKeyboard();
-	//fillCheracter(COORD{ 1,1 }, COORD{15,15});
 	player1.getPositon();
-	/*while (true)
-	{
-		int key = 0;
-		key = _getch();
-		if (key == 27) { cout << key<<endl; break; }
-		else { cout << key<<endl; }
-	}*/
 	return 0;
 }
