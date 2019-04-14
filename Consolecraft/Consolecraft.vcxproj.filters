@@ -33,6 +33,15 @@
     <ClInclude Include="commands.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="KeyboardMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="help.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Consolecraft.cpp">
@@ -45,6 +54,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Degree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

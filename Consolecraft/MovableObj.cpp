@@ -7,11 +7,11 @@ MovableObj::~MovableObj()
 }
 void MovableObj::up()
 {
-	position.y += 1;
+	position.y -= 1;
 }
 void MovableObj::down()
 {
-	position.y -= 1;
+	position.y += 1;
 }
 void MovableObj::left()
 {
@@ -28,6 +28,14 @@ void MovableObj::teleport(Point target)
 void MovableObj::turn(double degreeIn)
 {
 	facing = facing + degreeIn;
+}
+void MovableObj::turn(World world, double degreeIn)
+{
+}
+void MovableObj::teleport(World world,Point target, double degreeIn)
+{
+	position = target;
+	facing = fmod(degreeIn,360.0);
 }
 void MovableObj::getPositon()
 {
