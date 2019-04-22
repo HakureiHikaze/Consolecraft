@@ -1,5 +1,6 @@
 #pragma once
-#include <string>
+
+#include"include.h"
 using namespace std;
 const string commands[] = 
 {

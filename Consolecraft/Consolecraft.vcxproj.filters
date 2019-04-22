@@ -42,6 +42,12 @@
     <ClInclude Include="help.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Proxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Consolecraft.cpp">
@@ -59,5 +65,11 @@
     <ClCompile Include="World.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Proxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>

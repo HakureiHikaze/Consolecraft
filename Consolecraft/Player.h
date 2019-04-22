@@ -1,11 +1,8 @@
 #pragma once
-//#include"typePoint.h"
+#include"include.h"
 #include"MovableObj.h"
-#include<conio.h>
 #include"KeyboardMap.h"
-#include"World.h"
-#include <string>
-#include "help.h"
+#include"help.h"
 class Player :public MovableObj
 {
 private:
@@ -13,8 +10,8 @@ public:
 	string playerName;
 	bool listenCommand(bool hasPrompt , bool singleCommand);
 	bool listenKeyboard();
-	Player(string name);
-	Player();
+	Player(string name,long long *serial_number);
+	Player(long long* serial_number);
 	~Player();
+	Player();
 };
-

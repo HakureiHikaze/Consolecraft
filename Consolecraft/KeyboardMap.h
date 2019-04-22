@@ -1,5 +1,5 @@
 #pragma once
-#define KEY_a 97
+#define KEY_a 97 
 #define KEY_b 98
 #define KEY_c 99
 #define KEY_d 100
@@ -26,3 +26,4 @@
 #define KEY_y 121
 #define KEY_z 122
 #define KEY_colon 58
+#include"include.h"

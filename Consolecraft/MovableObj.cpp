@@ -1,8 +1,18 @@
 #include "MovableObj.h"
-MovableObj::MovableObj() : position({0,0}),facing(0.0)
+MovableObj::MovableObj(Point _position, Degree _facing, long long* serial_number)
 {
+	position = _position;
+	facing = _facing;
+	sn = *serial_number;
+	*serial_number++;
 }
-MovableObj::~MovableObj()
+MovableObj::MovableObj(long long* serial_number) : position({0,0}),facing(0.0)
+{
+	sn = *serial_number;
+	*serial_number++;
+}
+
+MovableObj::MovableObj()
 {
 }
 void MovableObj::up()
@@ -32,8 +42,9 @@ void MovableObj::turn(double degreeIn)
 void MovableObj::turn(World world, double degreeIn)
 {
 }
-void MovableObj::teleport(World world,Point target, double degreeIn)
+void MovableObj::teleport(World* world,Point target, double degreeIn)
 {
+
 	position = target;
 	facing = fmod(degreeIn,360.0);
 }

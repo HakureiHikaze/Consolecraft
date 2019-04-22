@@ -127,9 +127,11 @@
     <ClInclude Include="Consolecraft.h" />
     <ClInclude Include="Degree.h" />
     <ClInclude Include="help.h" />
+    <ClInclude Include="include.h" />
     <ClInclude Include="KeyboardMap.h" />
     <ClInclude Include="MovableObj.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Proxy.h" />
     <ClInclude Include="typePoint.h" />
     <ClInclude Include="World.h" />
   </ItemGroup>
@@ -138,7 +140,11 @@
     <ClCompile Include="Degree.cpp" />
     <ClCompile Include="MovableObj.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Proxy.cpp" />
     <ClCompile Include="World.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,6 @@
 #pragma once
-#include<math.h>
+
+#include"include.h"
 typedef struct tagPoint
 {
 	long x;
